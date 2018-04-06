@@ -12,7 +12,7 @@
 // 2.La fonction Search
 
 function search() {
-	var search = document.getElementById('recherche').value;
+	var search = document.getElementById('recherche').valuevalueRecherche.replace(" ","+");
 	document.location.href= "http://www.google.com/#q=" + search;
 }
 
